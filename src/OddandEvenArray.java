@@ -12,14 +12,12 @@ public class OddandEvenArray {
 		{
 			if(a[j]<b[k])
 			{
-				c[i]=a[j];
-				
+				c[i]=a[j];	
 				j++;	
 			}
 			else
 			{
 				c[i]=b[k];
-				
 				k++;
 			}	
 			if(j==a.length)
